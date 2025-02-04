@@ -1,5 +1,11 @@
 <template>
-  <v-card class="country-card" elevation="3" :ripple="true" hover>
+  <v-card
+    class="country-card"
+    elevation="3"
+    :ripple="true"
+    hover
+    :to="`/countries/${props.country.code}`"
+  >
     <v-card-title class="d-flex align-center">
       <v-icon icon="mdi-earth" class="mr-2" />
       {{ props.country.name }}

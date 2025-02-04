@@ -10,6 +10,7 @@ declare module 'vue' {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
     CountriesCardGrid: typeof import('./components/pages/countries/countries-card-grid.vue')['default']
     CountryCard: typeof import('./components/pages/countries/country-card.vue')['default']
+    CountryCardFull: typeof import('./components/pages/countries/country-card-full.vue')['default']
     GeneralInfoSection: typeof import('./components/pages/index/general-info-section.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

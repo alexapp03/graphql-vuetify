@@ -11,11 +11,11 @@
 </template>
 
 <script setup lang="ts">
-import { Qeries, Types } from "@/graphql";
+import { Queries, Types } from "@/graphql";
 import { useQuery } from "@vue/apollo-composable";
 
 const { result, loading } = useQuery<Types.CountriesQuery>(
-  Qeries.GET_COUNTRIES
+  Queries.GET_COUNTRIES
 );
 </script>
 
