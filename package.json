@@ -12,8 +12,12 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
+    "@apollo/client": "^3.12.9",
     "@mdi/font": "7.4.47",
+    "@vue/apollo-composable": "^4.2.1",
     "core-js": "^3.37.1",
+    "graphql": "^16.10.0",
+    "graphql-tag": "^2.12.6",
     "roboto-fontface": "*",
     "vue": "^3.4.31",
     "vuetify": "^3.6.14"
